@@ -11,7 +11,7 @@
 
 :root {
     --bg-color: #1f242d;
-    --second-bg-color: #323946;
+    --second-bg-color: #232c3d;
     --text-color: #fff;
     --main-color: #0ef;
 }
@@ -205,12 +205,12 @@ span {
 .skills {
   padding: 8rem 0;
   text-align: center;
-  background: #0d0d0d; /* dark bg */
+  background: #13191f;
   color: #fff;
 }
 
 .skills .heading {
-  font-size: 4rem;
+  font-size: 5rem;
   margin-bottom: 1rem;
 }
 
@@ -218,7 +218,7 @@ span {
   max-width: 700px;
   margin: 0 auto 3rem;
   color: #aaa;
-  font-size: 1.1rem;
+  font-size: 2rem;
 }
 
 .skills-container {
@@ -229,7 +229,7 @@ span {
 }
 
 .skill-box {
-  background: #1a1a1a;
+  background: #151e2a;
   padding: 2rem 1.5rem;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0,0,0,0.6);
@@ -295,8 +295,8 @@ span {
 }
 
 .projects .heading {
-  font-size: 6rem;
-  margin-bottom: 2rem;
+  font-size: 5rem;
+  margin-bottom: 4rem;
 }
 
 .projects-container {
@@ -327,7 +327,7 @@ span {
 }
 
 .project-content {
-  padding: 0.5rem;
+  padding: 1rem;
   text-align: left;
 }
 
@@ -383,10 +383,14 @@ span {
   }
 }
 
-
-
+.contact {
+    
+    background: #181e29;
+   
+}
 .contact h2 {
     margin-bottom: 3rem;
+   
 }
 
 .contact form {
