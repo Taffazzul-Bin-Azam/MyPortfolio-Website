@@ -1,3 +1,16 @@
+// Contact form submission with EmailJS
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  emailjs.sendForm("service_vk4n9db", "template_dq215ns", this)
+    .then(function() {
+      alert("✅ Thank You! Your Message sent successfully!");
+      document.getElementById("contact-form").reset(); // Clear form after send
+    }, function(error) {
+      alert("❌ Failed to send message. Error: " + error.text);
+    });
+});
+
 // toggle icon navbar
 
 let menuIcon = document.querySelector("#menu-icon");
