@@ -981,3 +981,16 @@ span {
     margin-top: 1rem;
   }
 }
+section {
+  min-height: auto;   /* ❌ har section ko full-screen height mat do */
+  padding: 8rem 7% 4rem; /* ✅ har section me equal top-bottom gap */
+}
+
+/* ✅ Sirf home section full screen hoga */
+.home {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
