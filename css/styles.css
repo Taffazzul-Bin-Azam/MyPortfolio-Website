@@ -176,11 +176,13 @@ span {
 }
 
 .home-img img {
-  width: 25vw;          /* relative to screen */
-  max-width: 350px;     /* don’t get too big */
+  width: 25vw;    
+  display: block;       /* relative to screen */
+  max-width: 100%;     /* don’t get too big */
   min-width: 200px;     /* don’t shrink too much */
   height: auto;
   border-radius: 50%;
+  margin: 0 auto;
   animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -224,6 +226,7 @@ span {
     flex-direction: column-reverse;  /* image below text */
     text-align: center;
     padding: 2rem 5%;
+    margin-top: 50px;
   }
     .home-content {
     text-align: center; /* headings & icons centered */
@@ -244,9 +247,10 @@ span {
   }
 
   .home-img img {
-    width: 60%;
+    width: 90%;
     max-width: 220px;
     margin-top: 1.5rem;
+    height: auto;
   }
 
   .social-media {
