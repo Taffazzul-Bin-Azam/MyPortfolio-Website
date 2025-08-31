@@ -795,6 +795,10 @@ span {
   html {
     font-size: 55%;
   }
+
+  section {
+    padding: 8rem 7% 3rem; /* Desktop ke liye thoda balanced */
+  }
 }
 
 /* Tablets (991px and below) */
@@ -804,17 +808,17 @@ span {
   }
 
   section {
-    padding: 8rem 3% 2rem;
+    padding: 6rem 5% 2rem; /* Tablet me thoda kam */
   }
 
   .footer {
-    padding: 2rem 3%;
+    padding: 2rem 5%;
   }
 
   /* Spacing for some sections */
   .services,
   .portfolio {
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
   }
 
   .contact {
@@ -856,7 +860,7 @@ span {
 
   .services h2,
   .portfolio h2 {
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -893,7 +897,7 @@ span {
   .home {
     flex-direction: column-reverse;
     text-align: center;
-    padding: 2rem 5%;
+    padding: 4rem 5% 2rem; /* Mobile ke liye compact */
   }
 
   .home-content h1 {
@@ -919,7 +923,7 @@ span {
   /* Skills grid (3 per row on mobile) */
   .skills-container {
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
   /* Projects grid (1 per row) */
@@ -937,6 +941,10 @@ span {
 
 /* Small mobiles (617px and below) */
 @media (max-width: 617px) {
+  section {
+    padding: 4rem 4% 2rem;
+  }
+
   .portfolio-container {
     grid-template-columns: 1fr;
   }
@@ -955,6 +963,10 @@ span {
 
 /* Ultra small devices (365px and below) */
 @media (max-width: 365px) {
+  section {
+    padding: 3.5rem 3% 1.5rem;
+  }
+
   .home-img img,
   .about-img img {
     width: 85vw;
