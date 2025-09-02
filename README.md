@@ -1,2 +1,2 @@
 
-Created a personal portfolio website using ReactJs and Tailwind CSS
+Created a personal portfolio website using HTML, CSS and JavaScript
