@@ -104,7 +104,7 @@ section {
 .home-content h3 {
   font-size: clamp(1.6rem, 3.5vw, 3.2rem); /* adaptive size */
   font-weight: 700;
-  margin-top: 0.5rem;
+  margin-top: 5rem;
   word-wrap: break-word;
 }
 
